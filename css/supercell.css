@@ -43,7 +43,7 @@ body {
   height: 92px;
   background-color: #000000;
   background-repeat: no-repeat;
-  background-image: url('../img/logo_supercell.png');
+  background-image: url('../images/logo_supercell.png');
 }
 
 .tr_right {
@@ -86,5 +86,5 @@ body {
   background-repeat: no-repeat;
   z-index: 2;
   position: relative;
-  background-image: url('../img/bg_hero_frontpage.jpg');
+  background-image: url('../images/bg_hero_frontpage.jpg');
 }
