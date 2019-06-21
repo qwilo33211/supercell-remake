@@ -28,63 +28,135 @@ body {
 }
 
 .topper {
-  width: 100%;
-  height: 135px;
-  padding-top: 20px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 999;
+  width: 90%;
+  max-width: 1600px;
+  height: 98px;
   padding-left: 50px;
-  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
   background: rgb(0, 0, 0);
 }
 
 .tr_left {
   float: left;
-  width: 121px;
-  height: 92px;
+  height: 98px;
+}
+
+.tr_left > a#tr_logo {
+  margin-top: 20px;
+  margin-left: 0;
+  display:inline-block;
+  width: 82px;
+  height: 54px;
   background-color: #000000;
   background-repeat: no-repeat;
+  background-size: contain;
   background-image: url('../images/logo_supercell.png');
 }
 
 .tr_right {
-  margin-top: 20px;
   float: right;
+  height: 98px;
 }
 
-.tr_right a {
+.tr_left a {
+  margin-top: 30px;
+  vertical-align: top;
+  display: inline-block;
   transition: color 0.5s;
   color: #7a7a7a;
   font-size: 18px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
-.tr_right a:hover {
+.tr_left a:hover {
   color: rgb(255, 255, 255);
+}
+
+.tr_right a {
+  display:inline-block;
+  vertical-align: top;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.tr_right #search {
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  margin-top: 0;
+  width: 98px;
+  height: 98px;
+  background-image: url('../images/search-icon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px 20px;
+}
+
+.tr_right #search:hover {
+  opacity: 1;
+}
+
+.banner {
+  position: relative;
 }
 
 .banner .icon1  {
   z-index: 4;
   width: 80%;
-  margin: 0 auto 0 auto;
   text-align: center;
   position: absolute;
   left: 50%;
-  top: 30%;
-  transform: translate(-50%,-30%);
+  top: 50%;
+  transform: translate(-50%,-50%);
   font-size: 18px;
-  max-width: 305px;
+  max-width: 360px;
   height: 144px;
 }
 
 .banner .icon2 {
   width: 100%;
-  height: 440px;
+  height: 0;
+  padding-bottom: 43.26%;
   background-position: center;
   object-fit: cover;
   background-repeat: no-repeat;
   z-index: 2;
   position: relative;
+  background-size: cover;
+  /* background-color: #7a7a7a; */
   background-image: url('../images/bg_hero_frontpage.jpg');
 }
+
+/* 定位置中法 */
+/* .line{
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  left: 50%;
+  width: 1px;
+  height: 100vw;
+  background-color: #ff0000;
+}
+ 
+
+.test {
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  left: 50%;
+  width: 90%;
+  height: 50px;
+  margin-left: -150px; 第2種寫法
+  transform: translateX(-50%);
+  background-color: rgb(0, 225, 255);
+} */
