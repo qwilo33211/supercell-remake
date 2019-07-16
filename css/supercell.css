@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 body {
@@ -135,6 +136,74 @@ body {
   background-size: cover;
   /* background-color: #7a7a7a; */
   background-image: url('../images/bg_hero_frontpage.jpg');
+}
+
+.news {
+  width: 100%;
+}
+
+.news ul {
+  width: 90%;
+  max-width: 1600px;
+  /* background-color: #000; */
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+  margin-top: 80px;
+}
+
+.news ul > li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  /* font-size: 0; */
+}
+
+.news ul > li > figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75.29%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.news ul > li.news-1 > figure {
+  background-image: url('../images/news/news_tb1.png');
+}
+
+.news ul > li.news-2 > figure {
+  background-image: url('../images/news/news_tb2.jpg');
+}
+
+.news ul > li.news-3 > figure {
+  background-image: url('../images/news/news_tb3.jpg');
+}
+
+.news ul > li.news-4 > figure {
+  background-image: url('../images/news/news_tb4.jpg');
+}
+
+.news ul > li.news-5 > figure {
+  background-image: url('../images/news/news_tb5.jpg');
+}
+
+.news ul > li.news-6 > figure {
+  background-image: url('../images/news/news_tb6.jpg');
+}
+
+.news ul > li > span {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+} 
+
+.news ul > li > .news-title {
+  color: #fb4a9d;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 /* 定位置中法 */
