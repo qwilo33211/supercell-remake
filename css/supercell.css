@@ -277,6 +277,148 @@ body {
   border-radius: 15px;
 }
 
+footer {
+  width: 100%;
+  background-color: #000;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.footer_top {
+  border-bottom: 1px solid #333;
+}
+
+.footer_top > .ft_left {
+  width: 600px;
+  margin-bottom: 32px;
+  float: left;
+}
+
+.ft_left > ul {
+  margin-top: 15px;
+}
+
+.ft_left > ul > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.ft_left > ul > li > a {
+  display: inline-block;
+  background-size: contain;
+}
+
+.ft_left > ul > li.icon1 a {
+  width: 33px;
+  height: 23px;
+  background-image: url('../images/footer_icons/some_youtube.png');
+}
+
+.ft_left > ul > li.icon2 a {
+  width: 25px;
+  height: 23px;
+  background-image: url('../images/footer_icons/some_facebook.png');
+}
+
+.ft_left > ul > li.icon3 a {
+  width: 27px;
+  height: 23px;
+  background-image: url('../images/footer_icons/some_twitter.png');
+}
+
+.ft_left > ul > li.icon4 a {
+  width: 23px;
+  height: 23px;
+  background-image: url('../images/footer_icons/some_instagram.png');
+}
+
+.ft_left > ul > li.icon5 a {
+  width: 24px;
+  height: 23px;
+  background-image: url('../images/footer_icons/some_linkedin.png');
+}
+
+.ft_left > ul > li.icon6 a {
+  width: 30px;
+  height: 23px;
+  background-image: url('../images/footer_icons/some_glassdoor.png');
+}
+
+.footer_top > .ft_right {
+  width: 600px;
+  height: 100px;
+  float: right;
+  text-align: right;
+}
+
+.ft_right > a {
+  display: inline-block;
+  background-size: cover;
+  margin-top: 23px;
+}
+
+.ft_right > a.apple_app {
+  width: 147px;
+  height: 49px;
+  background-image: url('../images/footer_icons/footer_appstore.png');
+  margin-right: 10px;
+}
+
+.ft_right > a.google_app {
+  width: 166px;
+  height: 49px;
+  background-image: url('../images/footer_icons/footer_googleplay.png');
+}
+
+.footer_bottom {
+  margin-top: 30px;
+  position: relative;
+}
+
+.footer_bottom > .fb_1 > li,
+.footer_bottom > .fb_1 > li > a {
+  display: inline-block; 
+}
+
+.footer_bottom > .fb_1 > li {
+  margin: 0 20px 0 0;
+}
+
+.footer_bottom > .fb_1 > li > a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer_bottom > .fb_1 > li > a:hover {
+  text-decoration: underline;
+}
+
+.footer_bottom > .fb_2 {
+  margin-top: 20px;
+}
+
+.footer_bottom > .fb_2 > li {
+  color: #666666;
+  font-size: 16px;
+}
+
+.footer_icon {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 60px;
+  height: 49px;
+  background-size: cover;
+  background-image: url('../images/logo_supercell.png');
+}
+
 /* 定位置中法 */
 /* .line{
   z-index: 9999;
